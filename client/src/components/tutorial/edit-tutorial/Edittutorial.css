@@ -1,0 +1,56 @@
+
+.edit-tutte-background{
+    background-color: rgba(255, 255, 255, 0.97);
+    border-radius: 10px;
+    box-shadow: 0 0 2000px 0 rgba(253, 253, 253, 0.5);
+    width: 700px;
+    
+}
+.edit-tute-form {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .edit-tute-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .edit-tute-form form {
+    width: 300px;
+    text-align: center;
+  }
+  
+  .edit-tute-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #2c2c2c;
+    border-radius: 5px;
+  }
+  
+  .edit-tute-form button {
+    padding: 10px 20px;
+    background-color: #0072ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-tute-form button:hover {
+    background-color: #0044b7;
+  }
+  .centered-video-player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    /* Center within the viewport height */
+  }
+  

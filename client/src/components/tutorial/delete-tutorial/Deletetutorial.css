@@ -1,0 +1,8 @@
+.button-center{
+  align-items: center;
+  text-align: center;
+}
+
+.button-center Button{
+    margin: 7px 8px 9px 0;
+  }

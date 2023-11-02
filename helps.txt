@@ -1,0 +1,32 @@
+//file location cdm
+npm i express nodemon cors mongoose body-parser
+npm install bcrypt
+npm install jsonwebtoken
+
+
+cd client
+npm install react-slick slick-carousel
+npm install react-router-dom
+npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+npm install @mui/material
+npm install react-player
+npm install --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/react-fontawesome
+npm install @mui/joy
+
+
+npm i axios
+
+
+
+
+
+how to run
+
+//new cdm
+npm start
+
+//new cdm
+cd client
+npm start

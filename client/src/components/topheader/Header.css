@@ -1,0 +1,111 @@
+/* src/components/Header.css */
+header {
+  background-color:#0072ff;
+  
+  padding: 0.1px;
+
+
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fffcfc;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.logo {
+  flex: 1;
+  height: 50px;
+  width: 100px;
+  padding-top: 0%;
+  padding-left: 10px;
+  padding-right: 30%;
+  /* Add spacing to separate the logo from the navigation */
+  object-fit: cover;
+}
+
+.texpadding {
+  margin-right: 20%;
+  /* Add spacing to separate the logo from the navigation */
+}
+
+.custom-button-up {
+  background-color: #0072ff;
+  color: rgb(254, 254, 254);
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: background-color 0.9s ease;
+  /* Add a transition effect */
+  font-size: 18px;
+
+  /* Hover effect */
+  &:hover {
+    background-color: #ffffff;
+    /* New background color on hover */
+    color: #0072ff;
+
+    font-size: 18px;
+  }
+
+  &:active {
+    color: #001841;
+    /* New background color when the button is clicked */
+    font-size: 18px;
+  }
+}
+
+.custom-button-in {
+  background-color: #0072ff;
+  color: rgb(254, 254, 254);
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: background-color 0.9s ease;
+  /* Add a transition effect */
+  font-size: 18px;
+
+  /* Hover effect */
+  &:hover {
+    background-color: #ffffff;
+    /* New background color on hover */
+    color: #0072ff;
+
+    font-size: 18px;
+  }
+
+  &:active {
+    color: #001841;
+    /* New background color when the button is clicked */
+    font-size: 18px;
+  }
+}
+
+.custom-nav {
+
+  &:hover {
+
+    text-decoration: underline;  
+      
+  }
+  &:active {
+    
+    /* New background color when the button is clicked */
+    font-style: italic;
+  }
+
+}
